@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./jasleen-css.css" rel="stylesheet">
+    <style>
+        body {
+            background-color:#0D0D0D;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .why {
+            border-radius: 2rem;
+            background-color:#1D1D1D;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .why h3 {
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .why1 {
+            border-radius: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .item {
+            color: white;
+            flex: 1 1 300px;
+            background-color:#FF0000;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media screen and (max-width: 768px) {
+            .item {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>EXPLORE OUR FITNESS STUDIO</h1>
+        <div class="why">
+            <h3>WHY CHOOSE US?</h3>
+            <div class="why1">
+                <div class="item">
+                    <h2>Modern Equipment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="item">
+                    <h2>Healthy Nutrition Plan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="item">
+                    <h2>Best Training Plan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+                <div class="item">
+                    <h2>Unique to Your Needs</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
